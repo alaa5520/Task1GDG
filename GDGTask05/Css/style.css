@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+@font-face {
+    font-family:main-font ;
+    src: url(Fount/OFL.txt);
+}
+/* Start Nav */
+.navbar{
+    background-image: url(../assets/img/header-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+   
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;  
+    top: 0;  
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px; 
+ }
+ nav ul li a{
+     color: white;
+     text-decoration: none;
+     font-size: 25px;
+ }
+ /* end nav */
+
+
+ .navbar .text {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%, -50%);  
+    text-align: center;
+    color: white;
+
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+    font-family: main-font;
+    h1{
+        font-size: 5rem;
+    }
+  h2{
+    font-size: 3rem;
+  }
+}
+
+.navbar .text button{
+    background-color: goldenrod;
+    padding: 1.25rem 2.5rem;
+    font-family: main-font;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+/* End nav */
+/* Start-Servis */
+
+
+.header text-center{
+    margin-top: 50px;
+}
+.header text-center h3{
+    font-family: main-font;
+    font-size: 30px;
+}
+/* End- sErvis */
+
+
+
+/* Star-Protfilo */
+.pro-text{
+    margin-top: 20px;
+    text-align: center;
+    font-family: main-font;
+    font-size: 30px;
+}
+
+.pro-text h3{
+    font-family: main-font;
+    font-size: 70px;
+    
+}
+
+.card-body{
+    text-align: center;
+  
+}
+.card-img-top {
+    transition: transform 0.3s ease, filter 0.3s ease;
+    border-radius: 10px;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.05); 
+    filter: brightness(0.8); 
+}
+/* end-Protfilo */
+
+
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+/*Contact */
+
+section#contact{
+    background-color: #343a40;
+    background-image: url(../assets/img/map-image.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+}
+/*  */
+.timeline {
+    position: relative;
+    padding: 50px 0;
+}
+
+.timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: #e9ecef;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.timeline > li {
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.timeline-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.timeline-panel {
+    width: 40%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.timeline > li:nth-child(odd) .timeline-panel {
+    text-align: left;
+    left: 55%;
+}
+
+.timeline > li:nth-child(even) .timeline-panel {
+    text-align: right;
+    left: auto;
+    right: 55%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
